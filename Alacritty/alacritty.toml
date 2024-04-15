@@ -1,6 +1,7 @@
 [font]
 size = 16.0
-
+[env]
+term= "xterm-256color"
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
@@ -26,20 +27,20 @@ multiplier = 3
 x = 10
 y = 10
 
-# Colors (Doom One)
+# Colors (One Dark)
 
 # Default colors
 [colors.primary]
-background = '#282c34'
-foreground = '#bbc2cf'
+background = '#1e2127'
+foreground = '#abb2bf'
 
 # Normal colors
 [colors.normal]
-black   = '#282c34'
-red     = '#ff6c6b'
-green   = '#98be65'
-yellow  = '#ecbe7b'
-blue    = '#51afef'
+black   = '#1e2127'
+red     = '#e06c75'
+green   = '#98c379'
+yellow  = '#d19a66'
+blue    = '#61afef'
 magenta = '#c678dd'
-cyan    = '#46d9ff'
-white   = '#bbc2cf'
+cyan    = '#56b6c2'
+white   = '#828791'
