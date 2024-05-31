@@ -1,0 +1,104 @@
+{
+    "workbench.colorCustomizations": {
+        "[Visual Studio Light]": {
+            //Full cherry blossom theme //VisualStudioLightLight 
+            //Title bar 
+            "titleBar.activeBackground": "#ffe5e5",
+            //Background color 
+            "titleBar.inactiveBackground": "#fff6f6",
+            //background color //activity bar 
+            "activityBar.foreground": "#ff0000a0",
+            //selection icon color 
+            "activityBar.inactiveForeground": "#ff00002e",
+            //Icon color
+            "activityBar.background": "#ffe9e9",
+            //background color
+            "activityBarBadge.background": "#ff9292", //Background color of notification badge//sidebar 
+            "sideBar.background": "#fff5f5", //background color //side Bar section header 
+            "sideBarSectionHeader.background": "#ff000011", //background color //list 
+            "list.hoverBackground": "#ff000010", //hover background color 
+            "list.focusBackground": "#ff000034", //Background color of selected item 
+            "list.activeSelectionBackground": "#ff000066", // selected item 
+            "list.inactiveSelectionBackground": "#ff000034", //Background color of selected item (list inactive) //Tab group header 
+            "editorGroupHeader.tabsBackground": "#ff000011", //Background color //tab 
+            "tab.activeBackground": "#ffffffa8", //active background color 
+            "tab.inactiveBackground": "#ff000013", //inactive background color //editor 
+            "editor.background": "#fffafa", //scrollbar 
+            "scrollbarSlider.hoverBackground": "#ff000055", //background color during hover 
+            "scrollbarSlider.activeBackground": "#ff000088", //active background color 
+            "scrollbarSlider.background": "#ff000044", //background color //status bar 
+            "statusBar.background": "#ff6767", //Background color 
+            "statusBar.noFolderBackground": "#ff6767", //Background color when folder is not open //button 
+            "button.background": "#ff000088",
+            //background color
+        },
+    },
+    "[search-result]": {
+        "editor.lineNumbers": "off"
+    },
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        },
+        {
+            "server": "10.115.4.203",
+            "database": "QA_440_ca_application",
+            "authenticationType": "SqlLogin",
+            "user": "QA#40",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "Corp-DB",
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true
+        },
+        {
+            "server": "auswdevdb03",
+            "database": "R441Bank",
+            "authenticationType": "SqlLogin",
+            "user": "dev_sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "R441Bank",
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true,
+            "connectTimeout": 15,
+            "commandTimeout": 30,
+            "applicationName": "vscode-mssql"
+        },
+        {
+            "server": "AUSWDEVDB03.Austin.Q2Technology.com",
+            "database": "RDevBank",
+            "authenticationType": "SqlLogin",
+            "user": "dev_sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true,
+            "connectTimeout": 15,
+            "commandTimeout": 30,
+            "applicationName": "vscode-mssql"
+        }
+    ],
+    "files.autoSave": "afterDelay",
+    "go.toolsManagement.autoUpdate": true,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "mssql.objectExplorer.groupBySchema": false,
+    "mssql.enableQueryHistoryCapture": false,
+    "latex-workshop.latex.external.build.command": "/Library/TeX/texbin/lualatex --jobname=6d5107ed-c06e-4a28-86ba-41ccb959cff3 --output-directory=/private/tmp/ -interaction=nonstopmode -halt-on-error /private/tmp/6d5107ed-c06e-4a28-86ba-41ccb959cff3.tex",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "workbench.sideBar.location": "right",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.minimap.renderCharacters": false,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false
+}
