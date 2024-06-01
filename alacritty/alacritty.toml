@@ -27,8 +27,10 @@ multiplier = 3
 x = 10
 y = 10
 
-# Colors (One Dark)
+[window]
+opacity = 0.9
 
+# Colors (One Dark)
 # Default colors
 [colors.primary]
 background = '#1e2127'
