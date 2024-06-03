@@ -1,7 +1,10 @@
-[font]
-size = 16.0
+# Environment
 [env]
 term= "xterm-256color"
+
+# Font
+[font]
+size = 14.0
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
@@ -23,20 +26,20 @@ style = "Regular"
 history = 100000
 multiplier = 3
 
+# Window
+[window]
+opacity = 0.9
+
 [window.padding]
 x = 10
 y = 10
 
-[window]
-opacity = 0.9
-
-# Colors (One Dark)
-# Default colors
+# Colors 
 [colors.primary]
 background = '#1e2127'
 foreground = '#abb2bf'
 
-# Normal colors
+# (One Dark)
 [colors.normal]
 black   = '#1e2127'
 red     = '#e06c75'
